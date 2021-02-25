@@ -11,7 +11,7 @@ from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import classification_report
 
 #Importing Data
-claimants = pd.read_csv("C:\\Users\\kittu\\OneDrive\\Desktop\\claimants.csv", sep = ",")
+claimants = pd.read_csv("give path\\claimants.csv", sep = ",") 
 
 #removing CASENUM
 c1 = claimants.drop('CASENUM', axis = 1)
